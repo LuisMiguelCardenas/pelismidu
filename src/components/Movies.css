@@ -1,0 +1,29 @@
+
+
+.movies-content {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.movie-container-list {
+
+    margin: 100px;
+    padding: 0;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: grid;
+    gap: 50px;
+  }
+
+  .movie-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+  }
+
+  .movie-title {
+    font-size: 30px;
+    font-weight: 700;
+
+  }
